@@ -416,6 +416,8 @@ AtlasLocale = {
 	["Hedrum the Creeper"] = "Hedrum the Creeper";
 	["Ok'thor the Breaker"] = "Ok'thor the Breaker";
 	["Zuul"] = "Zuul";
+	["Mecha-Chicken 3000"] = "Mecha-Chicken 3000";
+	["Twitches"] = "Twitches";
 	["Theldren"] = "Theldren";
 	["Lefty"] = "Lefty";
 	["Malgen Longspear"] = "Malgen Longspear";
@@ -613,6 +615,7 @@ AtlasLocale = {
 	["Darkmaster Gandling"] = "Darkmaster Gandling";
 	["Torch Lever"] = "Torch Lever";
 	["Secret Chest"] = "Secret Chest";
+	["Classic shared Basement Loot"] = "Classic shared Basement Loot";
 	["Alchemy Lab"] = "Alchemy Lab";
 	
 	--Shadowfang Keep

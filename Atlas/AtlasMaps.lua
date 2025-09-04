@@ -399,6 +399,8 @@ AtlasMaps = {
 		{ GREY..INDENT..AtlasLocale["Hedrum the Creeper"].." ("..AtlasLocale["Random"]..")", NPC, 9032 };
 		{ GREY..INDENT..AtlasLocale["Ok'thor the Breaker"].." ("..AtlasLocale["Random"]..")", NPC, 9030 };
 		{ GREY..INDENT..AtlasLocale["Zuul"].." ("..AtlasLocale["Random"]..")", NPC, 999999 };
+		{ GREY..INDENT..AtlasLocale["Twitches"].." ("..AtlasLocale["Random"]..")", NPC, 999999 };
+		{ GREY..INDENT..AtlasLocale["Mecha-Chicken 3000"].." ("..AtlasLocale["Random"]..")", NPC, 999999 };
 		{ GREY..INDENT..AtlasLocale["Theldren"].." ("..AtlasLocale["Summon"]..")", NPC, 16059 };
 		{ GREY..INDENT..AtlasLocale["Lefty"], NPC, 16049 };
 		{ GREY..INDENT..AtlasLocale["Malgen Longspear"], NPC, 16052 };
@@ -661,6 +663,7 @@ AtlasMaps = {
 		{ GREY.."12) "..AtlasLocale["Lord Alexei Barov"], NPC, 10504 };
 		{ GREY..INDENT..AtlasLocale["The Deed to Caer Darrow"], OBJECT, 176485 };
 		{ GREY.."13) "..AtlasLocale["Lady Illucia Barov"], NPC, 10502 };
+		{ GREY..INDENT..AtlasLocale["Classic shared Basement Loot"], OBJECT, 999999 };
 		{ GREY.."14) "..AtlasLocale["Darkmaster Gandling"], NPC, 1853 };
 		{ GREN.."1') "..AtlasLocale["Torch Lever"] };
 		{ GREN.."2') "..AtlasLocale["Secret Chest"] };
