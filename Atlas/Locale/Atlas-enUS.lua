@@ -397,6 +397,9 @@ AtlasLocale = {
 	["Nazrasash"] = "Nazrasash";
 	["Calypso"] = "Calypso";
 	["Pirate Lord Blackstone"] = "Pirate Lord Blackstone";
+	["Mickey G"] = "Mickey G";
+	["Head Chef Ramsay"] = "Head Chef Ramsay";
+	["First Mate Malin"] = "First Mate Malin";
 	
 	--Blackrock Depths
 	["Shadowforge Key"] = "Shadowforge Key";

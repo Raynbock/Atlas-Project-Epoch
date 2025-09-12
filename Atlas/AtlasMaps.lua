@@ -375,6 +375,9 @@ AtlasMaps = {
 		{ GREY.."6) "..AtlasLocale["Nazrasash"], NPC, 999999 };
 		{ GREY.."7) "..AtlasLocale["Calypso"], NPC, 999999 };
 		{ GREY.."7) "..AtlasLocale["Pirate Lord Blackstone"], NPC, 999999 };
+		{ GREY..INDENT..AtlasLocale["Mickey G"].." ("..AtlasLocale["Rare"]..")", NPC, 999999 };
+		{ GREY..INDENT..AtlasLocale["Head Chef Ramsay"].." ("..AtlasLocale["Rare"]..")", NPC, 999999 };
+		{ GREY..INDENT..AtlasLocale["First Mate Malin"].." ("..AtlasLocale["Rare"]..")", NPC, 999999 };
 	};
 	BlackrockDepths = {
 		ZoneName = { AtlasLocale["Blackrock Mountain"]..": "..AtlasLocale["Blackrock Depths"], 1584 };
