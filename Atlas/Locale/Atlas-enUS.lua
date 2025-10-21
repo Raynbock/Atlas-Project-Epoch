@@ -96,6 +96,7 @@ ATLAS_DDL_TYPE_INSTANCE_AC = "Instances A-C";
 ATLAS_DDL_TYPE_INSTANCE_DR = "Instances D-R";
 ATLAS_DDL_TYPE_INSTANCE_SZ = "Instances S-Z";
 ATLAS_DDL_TYPE_ENTRANCE = "Entrances";
+ATLAS_DDL_LEVEL_SORTED = "All Instances by Level";
 
 ATLAS_INSTANCE_BUTTON = "Instance";
 ATLAS_ENTRANCE_BUTTON = "Entrance";
@@ -390,8 +391,10 @@ AtlasLocale = {
 	
 	--Baradin Hold
 	["Morrumus"] = "Morrumus";
+	["Helnurath"] = "Helnurath";
 	["Dak´mal"] = "Dak´mal";
 	["Millhouse Manastorm"] = "Millhouse Manastorm";
+	["Isalien"] = "Isalien";
 	["Glagut"] = "Glagut";
 	["Astilos the Hollow"] = "Astilos the Hollow";
 	["Nazrasash"] = "Nazrasash";

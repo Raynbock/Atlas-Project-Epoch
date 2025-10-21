@@ -495,6 +495,38 @@ local function Atlas_SortZonesAlpha(a, b)
 	return aa < bb;
 end
 
+--Comparator function for level-based sorting of maps
+local function Atlas_SortZonesByLevel(a, b)
+	local aLevel = 0;
+	local bLevel = 0;
+	
+	-- Extract minimum level from LevelRange (e.g., "20-28" -> 20)
+	if AtlasMaps[a] and AtlasMaps[a].LevelRange then
+		local levelStr = AtlasMaps[a].LevelRange;
+		local minLevel = string.match(levelStr, "(%d+)%-");
+		if minLevel then
+			aLevel = tonumber(minLevel);
+		end
+	end
+	
+	if AtlasMaps[b] and AtlasMaps[b].LevelRange then
+		local levelStr = AtlasMaps[b].LevelRange;
+		local minLevel = string.match(levelStr, "(%d+)%-");
+		if minLevel then
+			bLevel = tonumber(minLevel);
+		end
+	end
+	
+	-- If levels are equal, sort alphabetically
+	if aLevel == bLevel then
+		local aa = Atlas_SanitizeName(AtlasMaps[a].ZoneName[1]);
+		local bb = Atlas_SanitizeName(AtlasMaps[b].ZoneName[1]);
+		return aa < bb;
+	end
+	
+	return aLevel < bLevel;
+end
+
 
 
 --Main Atlas event handler
@@ -519,7 +551,12 @@ function Atlas_PopulateDropdowns()
 			table.insert(ATLAS_DROPDOWNS[n], v);
 		end
 		
-		table.sort(ATLAS_DROPDOWNS[n], Atlas_SortZonesAlpha);
+		-- Use level sorting for the new "All Instances by Level" category
+		if catName == ATLAS_DDL_LEVEL_SORTED then
+			table.sort(ATLAS_DROPDOWNS[n], Atlas_SortZonesByLevel);
+		else
+			table.sort(ATLAS_DROPDOWNS[n], Atlas_SortZonesAlpha);
+		end
 		
 		i = n + 1;
 	end

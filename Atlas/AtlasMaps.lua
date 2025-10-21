@@ -368,8 +368,10 @@ AtlasMaps = {
 		Acronym = AtlasLocale["BH"];
 		{ BLUE.."A) "..AtlasLocale["Entrance"] };
 		{ GREY.."1) "..AtlasLocale["Morrumus"], NPC, 999999 };
+		{ GREY..INDENT..AtlasLocale["Helnurath"], NPC, 999999 };
 		{ GREY.."2) "..AtlasLocale["Dak´mal"], NPC, 999999 };
 		{ GREY.."3) "..AtlasLocale["Millhouse Manastorm"], NPC, 999999 };
+		{ GREY..INDENT..AtlasLocale["Isalien"], NPC, 999999 };
 		{ GREY.."4) "..AtlasLocale["Glagut"], NPC, 999999 };
 		{ GREY.."5) "..AtlasLocale["Astilos the Hollow"], NPC, 999999 };
 		{ GREY.."6) "..AtlasLocale["Nazrasash"], NPC, 999999 };

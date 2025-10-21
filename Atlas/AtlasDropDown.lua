@@ -27,6 +27,7 @@ Atlas_DropDownLayouts_Order = {
 	[3] = ATLAS_DDL_PARTYSIZE;
 	[4] = ATLAS_DDL_EXPANSION;
 	[5] = ATLAS_DDL_TYPE;
+	[6] = ATLAS_DDL_LEVEL_SORTED;
 	[ATLAS_DDL_CONTINENT] = {
 		[1] = ATLAS_DDL_CONTINENT_EASTERN;
 		[2] = ATLAS_DDL_CONTINENT_KALIMDOR;
@@ -52,6 +53,9 @@ Atlas_DropDownLayouts_Order = {
 		[2] = ATLAS_DDL_TYPE_INSTANCE_DR;
 		[3] = ATLAS_DDL_TYPE_INSTANCE_SZ;
 		[4] = ATLAS_DDL_TYPE_ENTRANCE;
+	};
+	[ATLAS_DDL_LEVEL_SORTED] = {
+		[1] = "AllInstances";
 	};
 };
 
@@ -293,6 +297,45 @@ Atlas_DropDownLayouts = {
 			"TheSunkenTempleEnt",
 			"UldamanEnt",
 			"WailingCavernsEnt",
+		},
+	},
+	[ATLAS_DDL_LEVEL_SORTED] = {
+		["AllInstances"] = {
+			"RagefireChasm",
+			"WailingCaverns",
+			"WailingCavernsEnt",
+			"TheDeadmines",
+			"TheDeadminesEnt",
+			"ShadowfangKeep",
+			"BlackfathomDeeps",
+			"BlackfathomDeepsEnt",
+			"RazorfenKraul",
+			"TheStockade",
+			"Gnomeregan",
+			"GnomereganEnt",
+			"RazorfenDowns",
+			"Uldaman",
+			"UldamanEnt",
+			"SMGraveyard",
+			"SMLibrary",
+			"SMArmory",
+			"SMCathedral",
+			"SMEnt",
+			"Maraudon",
+			"MaraudonEnt",
+			"ZulFarrak",
+			"TheSunkenTemple",
+			"TheSunkenTempleEnt",
+			"BlackrockDepths",
+			"BlackrockSpireLower",
+			"BlackrockSpireUpper",
+			"BlackrockSpireEnt",
+			"Stratholme",
+			"Scholomance",
+			"MoltenCore",
+			"GlittermurkMines",
+			"StonetalonCaverns",
+			"BaradinHold",
 		},
 	},
 };
